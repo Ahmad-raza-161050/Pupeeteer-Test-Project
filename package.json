@@ -1,0 +1,28 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "Automated Software Testing with Puppeteer",
+  "main": "index.js", 
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "node ./node_modules/mocha/bin/mocha tests/Base.js --timeout 100000 "
+  },
+  "keywords": [
+    "Puppeteer",
+    "Mocha",
+    "Chai",
+    "Automation"
+  ],
+  "author": "Ahmad",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.4",
+    "prettier": "^2.5.1",
+    "puppeteer": "^13.1.1",
+    "xlsx": "^0.17.5"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
